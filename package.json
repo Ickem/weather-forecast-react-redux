@@ -1,5 +1,6 @@
 {
   "name": "weather-forecast",
+  "homepage": "https://ickem.github.io/weather-forecast-react-redux/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
