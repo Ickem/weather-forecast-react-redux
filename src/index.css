@@ -1,0 +1,28 @@
+body {
+    font-family: 'NTR', 'Arial', sans-serif;
+}
+
+.card-img-top{
+   width: 100px;
+   margin: 0 auto;
+}
+
+label{
+    color: #606060;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.card{
+    color: #000000;
+}
+
+.city{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.temp{
+    font-size: 36px;
+    margin: 0;
+    font-weight: 600;
+}
