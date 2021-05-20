@@ -1,4 +1,5 @@
-import {Fragment} from 'react';
+import React, {Fragment} from 'react';
+import PropTypes from 'prop-types';
 
 export const InputField = ({inputValue, onChange, changeCity}) => (
     <Fragment>
@@ -26,6 +27,11 @@ export const InputField = ({inputValue, onChange, changeCity}) => (
 );
 
 
+InputField.propTypes = {
+    inputValue: PropTypes.string,
+    onChange: PropTypes.func,
+    changeCity: PropTypes.func
+};
 
 
 

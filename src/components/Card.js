@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Card = ({weatherMain, weather, temp, date, city}) => (
     <div className="col m-2">
@@ -15,5 +17,12 @@ export const Card = ({weatherMain, weather, temp, date, city}) => (
     </div>
 );
 
+Card.propTypes = {
+    weatherMain: PropTypes.object,
+    weather: PropTypes.array,
+    temp: PropTypes.number,
+    date: PropTypes.object,
+    city: PropTypes.string
+};
 
 

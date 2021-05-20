@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Loading = () => (
     <div className="container text-center ">
         <div className="text-center mt-5" >
